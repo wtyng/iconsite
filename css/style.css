@@ -1,7 +1,5 @@
-h1{
-	padding:10px 0;
-	font-weight:bold;
-}
+
+/* --- layout start --- */
 
 main{
 	max-width:1000px;
@@ -31,3 +29,35 @@ article{
 	display:block;
 	clear:both;
 }
+
+/* --- layout end --- */
+
+
+/* --- parts start --- */
+
+h1{
+	padding:10px 0;
+	font-weight:bold;
+}
+
+h2{
+	font-weight:bold;
+}
+
+h3{
+	font-size:24px;
+}
+
+.download_btn{
+	color:#ffffff;
+	padding:5px 10px;
+	background-color:#0062cc;
+}
+.download_btn:hover{
+	color:#ffffff;
+	background-color:#3399ff;
+	text-decoration:none;
+}
+
+/* --- parts end --- */
+
