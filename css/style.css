@@ -1,0 +1,33 @@
+h1{
+	padding:10px 0;
+	font-weight:bold;
+}
+
+main{
+	max-width:1000px;
+	padding:0;
+}
+
+nav{
+	width:300px;
+	float: left;
+}
+
+nav ul{
+	padding-left:20px;
+}
+
+#articlebox{
+	width:700px;
+	float: left;
+}
+
+article{
+	padding-bottom:1em;
+}
+
+#contentbox:after{
+	content:"";
+	display:block;
+	clear:both;
+}
